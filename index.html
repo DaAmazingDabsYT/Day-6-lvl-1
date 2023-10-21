@@ -1,0 +1,60 @@
+<html>
+        <body></body>
+        <style></style>
+        <script>for (i=0; i<=10; i++){
+console.log(i)
+}
+for (i=10; i>=0; i--){
+console.log(i)
+}
+let n=20
+for (i=0; i<=n; i++){
+console.log(i)
+}
+let output="#"
+for (i=1; i<=6; i++){
+console.log(output)
+output=output.concat("#")
+}
+for (i=0; i<=10; i++){
+    console.log(`${i} * ${i} = ${i * i}`)
+}
+for (i=0; i<=10; i++){
+    console.log(`${i**3}`)
+}
+for (i=0; i<=10; i++){
+    console.log(`${i**2}`)
+}
+for (i=0; i<=100; i++){
+if (i%2==1){
+console.log(i)
+}
+}
+for (i=0; i<=100; i++){
+if (i%2==0){
+console.log(i)
+}
+}
+for (i=2; i<=100; i++){
+let isprime=1
+for (j=2; j<=i/2; j++){
+if (i%j==0){
+isprime=0
+}
+}
+if(isprime==1){
+console.log(i)
+}
+}
+let sumE = 0
+let sumO = 0
+for (let i = 0; i <= 100; i++) {
+  if (i % 2 == 0) {
+    sumE += i
+  } else {
+    sumO += i
+  }
+}
+
+console.log(sumE, sumO)</script>
+      </html>
